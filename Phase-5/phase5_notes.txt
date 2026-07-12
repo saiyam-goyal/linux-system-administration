@@ -1,0 +1,65 @@
+PHASE 5 – DISK & SYSTEM INFORMATION
+
+Objective:
+The objective of this phase was to understand Linux disk management and system information commands by monitoring disk usage, directory size, memory utilization, system details, hostname, uptime, current users, and kernel information.
+
+Commands Practiced:
+- df -h
+- du -sh
+- free -h
+- uname -a
+- hostnamectl
+- uptime
+- date
+- who
+- uname -r
+- hostname
+- whoami
+- pwd
+
+Tasks Performed:
+
+1. Checked the overall disk usage and available storage space using the df -h command.
+
+2. Measured the total size of the home directory using the du -sh command.
+
+3. Monitored system memory usage including total, used, free, and available RAM using the free -h command.
+
+4. Displayed detailed system information including operating system, architecture, hostname, and kernel details using the uname -a command.
+
+5. Retrieved complete hostname and operating system information using the hostnamectl command.
+
+6. Checked the current system uptime and system load using the uptime command.
+
+7. Displayed the current system date and time using the date command.
+
+8. Listed all currently logged-in users using the who command.
+
+9. Displayed the currently running Linux kernel version using the uname -r command.
+
+10. Performed a final system verification by displaying the hostname, current user, working directory, kernel information, disk usage, memory usage, and system uptime.
+
+Key Concepts Learned:
+- Disk usage monitoring
+- Directory size analysis
+- Memory utilization
+- Linux kernel information
+- Hostname management
+- System uptime
+- Logged-in users
+- System resource monitoring
+- Linux system information
+
+Skills Demonstrated:
+- Monitoring disk space
+- Checking directory sizes
+- Viewing memory utilisation
+- Identifying Linux kernel version
+- Retrieving hostname information
+- Monitoring system uptime
+- Viewing logged-in users
+- Collecting essential system information
+- Basic Linux system monitoring
+
+Outcome:
+Completed Linux disk and system monitoring tasks by analysing storage usage, monitoring memory utilisation, retrieving system information, identifying the kernel version, checking system uptime, and verifying logged-in users. This phase provided practical experience with essential Linux monitoring and administration commands commonly used by Linux System Administrators, DevOps Engineers, IT Support Engineers, and Cloud Professionals.

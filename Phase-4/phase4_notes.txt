@@ -1,0 +1,54 @@
+PHASE 4 – PROCESS MANAGEMENT
+
+Objective:
+The objective of this phase was to understand Linux process management by viewing running processes, monitoring system resources, executing background jobs, identifying process IDs, terminating processes, and managing process priorities.
+
+Commands Practised:
+
+ps
+ps -ef
+top
+sleep
+jobs
+grep
+kill
+nice
+
+Tasks Performed:
+
+Displayed the processes currently running in the active terminal session using the ps command.
+Listed all active processes in the system using the ps -ef command to view detailed process information, including PID, PPID, owner, and command.
+Monitored real-time CPU usage, memory usage, running processes, and overall system performance using the top command.
+Started a background process using the sleep 300 & command.
+Verified the running background job using the jobs command.
+Located the background process and identified its Process ID (PID) using the ps -ef | grep sleep command.
+Attempted to terminate the running process using the kill command and verified that the process was successfully removed.
+Checked the default process priority (Nice value) using the nice command.
+Started a new background process with a custom Nice value using the nice -n 10 sleep 300 & command.
+Observed how Linux assigns different scheduling priorities to processes based on their Nice values.
+
+Key Concepts Learned:
+
+Linux processes
+Process ID (PID)
+Parent Process ID (PPID)
+Background processes
+Process monitoring
+Job control
+Process termination
+Nice values and process priority
+CPU scheduling basics
+
+Skills Demonstrated:
+
+Viewing running processes
+Monitoring system performance
+Managing background jobs
+Identifying process IDs
+Searching for running processes
+Terminating processes safely
+Managing process priority
+Basic Linux process administration
+
+Outcome:
+Successfully completed Linux process management tasks by monitoring active processes, executing background jobs, identifying process IDs, terminating processes, and adjusting process priorities using Nice values. This phase provided practical experience with essential Linux process administration and system monitoring techniques commonly used by Linux system administrators.
