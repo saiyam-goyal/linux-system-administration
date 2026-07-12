@@ -1,0 +1,160 @@
+===============================
+PHASE 1 - Linux File & Directory Basics
+===============================
+
+Objective:
+Learn and practice the fundamental Linux commands used for navigating directories and managing files.
+
+Environment:
+- Operating System: Ubuntu Linux
+- Terminal: Bash Shell
+- Project Folder: Linux_Practice
+
+Commands Practised:
+
+1. pwd
+Purpose:
+Displays the current working directory.
+
+Example:
+pwd
+
+Output:
+/home/saiyam/Linux_Practice
+
+
+---------------------------------------
+
+2. ls
+Purpose:
+Lists all files and directories in the current location.
+
+Example:
+ls
+
+Output:
+notes.txt
+
+
+---------------------------------------
+
+3. cd
+Purpose:
+Changes the current directory.
+
+Examples:
+cd Linux_Practice
+cd ..
+cd ~
+
+Meaning:
+- cd folder_name : Enter a directory
+- cd ..          : Move one level up
+- cd ~           : Go to home directory
+
+
+---------------------------------------
+
+4. touch
+Purpose:
+Creates an empty file.
+
+Example:
+touch notes.txt
+
+
+---------------------------------------
+
+5. cp
+Purpose:
+Copies a file.
+
+Example:
+cp notes.txt backup.txt
+
+Result:
+A duplicate file named backup.txt is created.
+
+
+---------------------------------------
+
+6. mv
+Purpose:
+Renames or moves a file.
+
+Example:
+mv backup.txt renamed.txt
+
+Result:
+backup.txt becomes renamed.txt.
+
+
+---------------------------------------
+
+7. rm
+Purpose:
+Deletes a file.
+
+Example:
+rm renamed.txt
+
+
+---------------------------------------
+
+8. mkdir
+Purpose:
+Creates a new directory.
+
+Example:
+mkdir Linux_Practice
+
+
+---------------------------------------
+
+9. rmdir
+Purpose:
+Removes an empty directory.
+
+Example:
+rmdir Linux_Practice
+
+Important:
+This command only works if the directory is empty.
+
+Error Encountered:
+rmdir: failed to remove 'Linux_Practice': Directory not empty
+
+Reason:
+The directory still contained notes.txt.
+
+Solution:
+Delete all files inside the directory first using rm, then execute rmdir.
+
+
+---------------------------------------
+
+Key Learnings
+
+• Navigated directories using cd and pwd.
+• Listed files using ls.
+• Created files using touch.
+• Copied files using cp.
+• Renamed files using mv.
+• Deleted files using rm.
+• Created directories using mkdir.
+• Removed empty directories using rmdir.
+• Understood why rmdir fails on non-empty directories.
+
+
+Skills Demonstrated
+
+✔ Linux Navigation
+✔ File Management
+✔ Directory Management
+✔ Command-Line Basics
+✔ Error Troubleshooting
+
+
+Conclusion
+
+This phase established a strong foundation in Linux terminal usage. These commands are essential for Linux system administration, DevOps, cybersecurity, and penetration testing.
