@@ -1,0 +1,69 @@
+PHASE 3 – USER & GROUP MANAGEMENT
+
+Objective:
+The objective of this phase was to understand Linux user and group administration by creating users, assigning passwords, managing groups, verifying user information, and testing user login.
+
+Commands Practiced:
+- cat /etc/passwd
+- groupadd
+- grep
+- useradd
+- passwd
+- id
+- usermod
+- groups
+- ls /home
+- su
+- whoami
+- pwd
+- exit
+
+Tasks Performed:
+
+1. Verified the existing users available on the Linux system using the /etc/passwd file.
+
+2. Created a new group named "developers".
+
+3. Created a new user named "samproject" with:
+   - Home directory
+   - Bash as the default login shell
+
+4. Assigned a secure password to the newly created user.
+
+5. Verified the user's UID, GID, and group membership using the id command.
+
+6. Added the user to the "developers" group using the usermod command.
+
+7. Verified the updated group membership using the groups command.
+
+8. Confirmed that the user's home directory was successfully created under /home.
+
+9. Logged into the newly created user account using the su command.
+
+10. Verified the current logged-in user and working directory using whoami and pwd.
+
+11. Logged out from the new user account and returned to the original administrator account.
+
+12. Performed a final verification of user information and group membership.
+
+Key Concepts Learned:
+- Linux user accounts
+- Linux groups
+- User ID (UID)
+- Group ID (GID)
+- Home directories
+- Login shells
+- User authentication
+- Group membership management
+
+Skills Demonstrated:
+- Creating Linux users
+- Creating Linux groups
+- Assigning passwords
+- Managing user permissions
+- Switching between user accounts
+- Verifying user identity and group information
+- Basic Linux system administration
+
+Outcome:
+Successfully completed Linux user and group management tasks by creating users and groups, assigning passwords, managing memberships, verifying user information, and testing login functionality. This phase provided practical experience with essential Linux administration tasks commonly performed by system administrators.

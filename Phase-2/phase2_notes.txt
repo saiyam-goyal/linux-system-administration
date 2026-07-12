@@ -1,0 +1,41 @@
+PHASE 2 – FILE PERMISSIONS & BASIC FILE OPERATIONS
+
+Objective:
+The objective of this phase was to understand Linux file permissions, identify the current user and groups, edit files, and view file contents using common Linux commands.
+
+Commands Practised:
+- pwd
+- touch
+- ls
+- ls -l
+- chmod
+- whoami
+- id
+- groups
+- nano
+- cat
+- head
+- tail
+
+Tasks Performed:
+1. Verified the current working directory.
+2. Created multiple text files.
+3. Checked default file permissions.
+4. Modified file permissions using chmod.
+5. Verified the current logged-in user.
+6. Displayed user ID and group information.
+7. Listed all groups of the current user.
+8. Edited a file using Nano editor.
+9. Displayed file contents using cat.
+10. Viewed the first lines using head.
+11. Viewed the last lines using tail.
+
+Skills Learned:
+- Understanding Linux permission system.
+- Changing permissions using chmod.
+- Working with user and group information.
+- Editing files in Nano.
+- Reading file contents using cat, head, and tail.
+
+Outcome:
+Completed file permission management and basic file handling operations in Linux. This phase strengthened practical knowledge of Linux file security, user management, and command-line file operations.
